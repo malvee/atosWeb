@@ -1,6 +1,11 @@
 body{
 	margin-bottom : 0.1em;
 }
+
+*{
+	font-weight: bold;
+}
+
 #marginlength{
 	margin-left: 5em;
 	margin-right: 5em;
@@ -12,6 +17,9 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+}
+#big{
+	font-size: 2em;
 }
 #picture{
 	width: 10em;
