@@ -15,13 +15,13 @@
 				</a>
 				
 				<a href = "team.html" class = "navbar-brand" class = "active">Team Presentation</a>
-				<a href = "#" class = "navbar-brand" class = "active">Project</a>
+				<a href = "cis-ucl-social-media/index.php" class = "navbar-brand" class = "active">Project</a>
 				<a href = "projectRequirement.html" class = "navbar-brand" class = "active">Project Requirements & Scope</a>
-				<a href = "#" class = "navbar-brand" class = "active">Research</a>
+				<a href = "research.html" class = "navbar-brand" class = "active">Research</a>
 				<a href = "prototypes.html" class = "navbar-brand" class = "active">Prototypes</a>
 				<a href = "ui.html" class = "navbar-brand" class = "active">UI</a>
 				<a href = "archive.html" class = "navbar-brand" class = "active">Archive</a>
-				<a href = "#" class = "navbar-brand" class = "active">Testing</a>
+				<a href = "testing.html" class = "navbar-brand" class = "active">Testing</a>
 				<a href = "plans.html" class = "navbar-brand" class = "active">Plans</a>
 
 			</div>
@@ -29,7 +29,7 @@
 		</div>
 
 		<div style = "margin-left: 5em; margin-right: 5em; margin-top: 1em;">
-			<p> By the end of term-1 we will deliver a prototype that has the basic functionality of pulling in tweets from the live-stream and displaying the tweets with the sentiment labelled to the user. The user also has the option to filter out the data via the 3 available categories of tweet sentiment: Good, Bad and Neutral. The image below shows a mock-up of the final delivarable for this project.</p>
+			<p> By the end of term 1 we will deliver a prototype that has the basic functionality of pulling in tweets from the live-stream and displaying the tweets with the sentiment labelled to the user. The user also has the option to filter out the data via the 3 available categories of tweet sentiment: Good, Bad and Neutral. The image below shows a mock-up of the final delivarable for this project.</p>
 
 			<center><img src = "plans1.png" style = "width: 80%; height: 35em;" /></center>
 			<ul>
@@ -39,6 +39,8 @@
 			<li><p style = "margin-top: 1em;"> Currently the prototype only works with tweets using the twitter API, this functionality will be extended to include posts/statuses form other social media platforms. Further data needs to be attached to each entry in the output to include the name of the platform from which it was fetched etc. When we are able to display information form a range of different platforms we will either need to devise an algorithm to group the data in a useful way i.e. clustering the data from different social media and sort them in a pre-defined order; or we will agree on a protocol to display the data from a certain perspective.</p></li>
 
 			<li><p style = "margin-top: 1em;"	> There will be a resource re-direction mechanism built into the back-end of the project to only display the relevant information to the person using the system.This means that a further classification system is to be configured which clusters data into a given number of fields (ex: Train operator, Janitor, Toilet manager etc) and dis-patches the tweets to them. The most sensible way to do it, is through a login screen where the  credentials would be matched against a secure database and upon validation, the user will be re-directed to the page specific to the user. This brings up security concerns such as securing the database from intrusion as senstive data is available upon login. Further research will be carried out to establish what security measures we will implement and provide. </p></li>
+
+			<li><p style = "margin-top: 1em;"	> The protype that we have build is running using PHP and was built like that because we did not want to overcomplicate some features of the implementation. We aim to do the final application using Django, but if it happens that a PHP solution gives us a smoother and less complicated alternative, we will use that instead. </p></li>
 
 			</ul>
 
